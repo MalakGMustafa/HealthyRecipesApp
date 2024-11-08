@@ -117,8 +117,4 @@ public class MainActivity3 extends AppCompatActivity {
                 break;
         }
     }
-
-   /* private void test(String photo){
-        if(photo.)
-    }*/
 }
