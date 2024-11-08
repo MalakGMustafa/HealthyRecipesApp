@@ -6,18 +6,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity3 extends AppCompatActivity {
-    String photo;
-    String method;
-    String ing;
+
+
+
     private TextView txt1;
     private TextView txt2;
     private ImageView  food1 , food2 , food3, sweet1, sweet2, sweet3;
@@ -40,9 +35,9 @@ public class MainActivity3 extends AppCompatActivity {
         sweet3 = findViewById(R.id.sweet3);
         back = findViewById(R.id.back);
 
-        photo = getIntent().getStringExtra("photo");
-        ing = getIntent().getStringExtra("ing");
-        method = getIntent().getStringExtra("method");
+        String photo = getIntent().getStringExtra("photo");
+        String ing = getIntent().getStringExtra("ing");
+        String method = getIntent().getStringExtra("method");
 
         txt1.setText(ing);
         txt2.setText(method);
