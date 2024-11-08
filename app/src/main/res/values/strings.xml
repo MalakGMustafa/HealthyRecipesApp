@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Healthy Recipes App</string>
+    <string name="get_started">Get Started</string>
+    <string name="title1">Healthy Food For Healthy Living</string>
+    <string name="title2">Choose the recipe you like and try it yourself</string>
+    <string name="str1">Select the type from the spinner then click on the recipe name</string>
+    <string name="search">Search</string>
+    <string name="back">Back</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="method">Method</string>
+
+    <string-array name="list1">
+        <item> Food </item>
+        <item> Sweet </item>
+    </string-array>
+</resources>
